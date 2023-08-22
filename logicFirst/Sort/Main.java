@@ -6,5 +6,12 @@ public class Main {
         Sort.insertionSort(newArr);
 
         System.out.println(Arrays.toString(newArr));
+        int newArr1[] = {78,89,12,23,45,56,58,75};
+        int result[] = MergeSort.sort(newArr1);
+        System.out.println(Arrays.toString(result));
+
+        int mergeInArr[] = {78,51,32,95,13,79,34,38,45,67,91};
+        MergeSort.mergeSortInPlace(mergeInArr, 0, mergeInArr.length);
+        System.out.println(Arrays.toString(mergeInArr));
     }
 }
