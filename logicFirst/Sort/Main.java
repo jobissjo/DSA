@@ -13,5 +13,13 @@ public class Main {
         int mergeInArr[] = {78,51,32,95,13,79,34,38,45,67,91};
         MergeSort.mergeSortInPlace(mergeInArr, 0, mergeInArr.length);
         System.out.println(Arrays.toString(mergeInArr));
+
+        // Quick Sort
+
+        int[] quickArr = {10,30,23,25,78,49,35,67};
+        QuickSort.sort(quickArr, 0, quickArr.length-1);
+        System.out.println(Arrays.toString(quickArr));
+
+        // 
     }
 }
