@@ -31,6 +31,9 @@ public class Main {
             System.out.println("Value Not found");
         else
             System.out.println("Value Found");
+        
+        bTree.delete(bTree.root, 50);
+        bTree.inOrder(bTree.root);
     }
 
     
