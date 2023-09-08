@@ -34,6 +34,17 @@ public class Main {
         
         bTree.delete(bTree.root, 50);
         bTree.inOrder(bTree.root);
+
+        System.out.println();
+        AVLTree tree2 = new AVLTree(5);
+        tree2.insert(10);
+        tree2.insert(4);
+        tree2.insert(11);
+        tree2.insert(12);
+        tree2.insert(15);
+        tree2.insert(3);
+
+        tree2.inOrder(tree2.root);
     }
 
     
